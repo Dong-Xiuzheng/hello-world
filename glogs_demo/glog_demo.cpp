@@ -26,5 +26,7 @@ int main(int argc,char* argv[]) {
     VLOG(1) <<  "debug world" << std::endl;
     VLOG(1) <<  "test flag value " << FLAGS_db_type << std::endl;
     
+    google::ShutdownGoogleLogging();
+    google::ShutDownCommandLineFlags();
     return 0;  
 } 
