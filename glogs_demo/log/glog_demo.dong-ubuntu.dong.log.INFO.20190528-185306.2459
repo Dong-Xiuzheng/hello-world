@@ -1,0 +1,5 @@
+Log file created at: 2019/05/28 18:53:06
+Running on machine: dong-ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0528 18:53:06.726702  2459 glog_demo.cpp:14] hello world
+I0528 18:53:06.727028  2459 glog_demo.cpp:15] debug world
